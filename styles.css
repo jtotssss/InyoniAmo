@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('robotic_arm.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+}
+
+.about, .container article {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+    color: #e0e0e0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.about {
+    margin-bottom: 0;
+}
+
+h2 {
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.circle-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00ccff;
+    box-shadow: 0 0 10px #00ccff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.circle-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #00ccff;
+}
+
+.circle-img:focus,
+.circle-img:active {
+    outline: none;
+    border: 3px solid #00ccff !important;
+}
+
+.emoji-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.emoji-list li {
+    font-size: 20px;
+    margin: 5px 0;
+}
